@@ -3,7 +3,7 @@ import React from 'react';
 import classes from './SubmitButton.css';
 
 const submitButton = props => (
-  <button className={classes.SubmitButton}>Get Started</button>
+  <button onClick={props.submitClickHandler} className={classes.SubmitButton}>{props.buttonText}</button>
 );
 
 export default submitButton;

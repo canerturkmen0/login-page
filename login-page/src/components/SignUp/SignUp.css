@@ -35,3 +35,24 @@
   border: 1px solid #757575;
   color: #FFFFFF;
 }
+
+.SignUp input.error {
+  border: 1px solid #D61609;
+}
+
+.SignUp .Password {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.SignUp .Password input {
+  width: 100%;
+}
+
+.SignUp .Password i {
+  position: absolute;
+  right: 10px;
+  color: #757575;
+  cursor: pointer;
+}

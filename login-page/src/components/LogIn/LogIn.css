@@ -13,6 +13,14 @@
   margin-top: 0;
 }
 
+.LogIn small {
+  color: #00A077;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
 .LogIn .FullName {
   display: flex;
   justify-content: space-between;
@@ -34,4 +42,25 @@
   background: rgba(0,0,0,0);
   border: 1px solid #757575;
   color: #FFFFFF;
+}
+
+.LogIn input.error {
+  border: 1px solid #D61609;
+}
+
+.LogIn .Password {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.LogIn .Password input {
+  width: 100%;
+}
+
+.LogIn .Password i {
+  position: absolute;
+  right: 10px;
+  color: #757575;
+  cursor: pointer;
 }
