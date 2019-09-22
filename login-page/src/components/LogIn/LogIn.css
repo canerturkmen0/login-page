@@ -1,0 +1,37 @@
+.LogIn {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  padding: 5%;
+  width: 90%;
+}
+
+.LogIn h1 {
+  color: #FFFFFF;
+  text-align: center;
+  font-weight: normal;
+  margin-top: 0;
+}
+
+.LogIn .FullName {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.LogIn .FullName input {
+  width: 45%;
+}
+
+.LogIn > * {
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.LogIn input {
+  padding: 1%;
+  margin: 2% 0;
+  background: rgba(0,0,0,0);
+  border: 1px solid #757575;
+  color: #FFFFFF;
+}

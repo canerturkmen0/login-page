@@ -1,10 +1,12 @@
 import React from 'react';
+
+import Form from './components/Form/Form';
 import classes from './App.css';
 
 function App() {
   return (
-    <div className={classes.App}>
-      <h1>Hellooo</h1>
+    <div className={classes.Wrapper}>
+      <Form />
     </div>
   );
 }
