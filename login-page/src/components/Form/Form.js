@@ -37,7 +37,6 @@ class Form extends Component {
           </button>
         </nav>
         {signUpActive ? <SignUp /> : <LogIn />}
-        <button className={classes.SubmitButton}>Get Started</button>
       </div>
     );
   }

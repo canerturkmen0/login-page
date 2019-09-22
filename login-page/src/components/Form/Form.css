@@ -15,7 +15,7 @@
   padding: 5%;
 }
 
-.Form button {
+.Form nav button {
 	border: none;
 	font: inherit;
 	cursor: pointer;
@@ -25,15 +25,7 @@
   background-color: #43525A;
 }
 
-.Form button.SubmitButton {
-  margin-bottom: 5%;
-  width: 90%;
-  background-color: #1AB188;
-  color: #FFFFFF;
-  text-transform: uppercase;
-}
-
-button.active {
+.Form nav button.active {
   background-color: #1AB188;
   color: #FFFFFF;
 }
